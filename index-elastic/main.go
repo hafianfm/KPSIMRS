@@ -25,8 +25,9 @@ type LogData struct {
 
 func main() {
 	cfg := elasticsearch.Config{
-		CloudID: "es-dbt:YXNpYS1zb3V0aGVhc3QxLmdjcC5lbGFzdGljLWNsb3VkLmNvbSRkMjYyNWJjNzY4NjA0ZDM1YTkzOWQyNWU2ZjI0NmJjMCQyMWI3Mjg3MjY2OWY0OTBmOTU3MTk1MjQ4ZGQ3YWNmNg==",
-		APIKey:  "SDZ0Nko0b0JyTnVOd2FaWVN1NHI6WHhhZkNYQ1RSb1dtcU0zWUN4YUQxdw==",
+		CloudID: "SIMRS:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDhjMmViMTcwNGEwNjQ2MzdiNDhlYmVmMjI5NjJhZDA5JDEwNjA0ZDhlNzZiNTQzNTFhNzgzMTVmZTVlMjQ4M2U4",
+		APIKey:  "aE16VUtvd0JvWGM2ZGdVOUpVRlU6SVlLTDNGZlVSZy1pNGItbjFsZVh2QQ==",
+		
 	}
 	client, err := elasticsearch.NewClient(cfg)
 	if err != nil {
